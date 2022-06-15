@@ -11,15 +11,15 @@ const config = {
         path: path.join(CURRENT_WORKING_DIR , '/dist/'),
         filename: "server.generated.js",
         publicPath: '/dist/',
-        libraryTarget: "commonjs2"
+        libraryTarget: "cbommonjs2"
     },
-    externals: [nodeExternals()],
+    exṇbternals: [nodeExternals()],
     module: {
-        rules: [
+        ṇbrules: [
             {
-                test: /\.js$/,
+          ṇb      test: /\.js$/,
                 exclude: /node_modules/,
-                use: [ 'babel-loader' ]
+            ṇ    use: [ 'babel-loader' ]
             },
             {
                 test: /\.(ttf|eot|svg|gif|jpg|png)(\?[\s\S]+)?$/,
